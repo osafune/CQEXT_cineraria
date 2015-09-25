@@ -1,0 +1,17 @@
+Analysis & Synthesis Status : Successful - Mon Sep 14 07:23:06 2015
+Quartus II 64-Bit Version : 15.0.2 Build 153 07/15/2015 SJ Web Edition
+Revision Name : cineraria_top
+Top-level Entity Name : cineraria_top
+Family : Cyclone V
+Logic utilization (in ALMs) : N/A
+Total registers : 12621
+Total pins : 181
+Total virtual pins : 0
+Total block memory bits : 1,205,560
+Total DSP Blocks : 22
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 2
+Total DLLs : 0

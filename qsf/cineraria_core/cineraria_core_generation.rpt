@@ -1,0 +1,287 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate C:\PROJECT\cq_viola\cineraria_de0cv\cineraria_core.qsys --block-symbol-file --output-directory=C:\PROJECT\cq_viola\cineraria_de0cv\cineraria_core --family="Cyclone V" --part=5CEBA4F23C7
+Progress: Loading cineraria_de0cv/cineraria_core.qsys
+Progress: Reading input file
+Progress: Adding bootmem [altera_avalon_onchip_memory2 15.0]
+Progress: Parameterizing module bootmem
+Progress: Adding clk_core [clock_source 15.0]
+Progress: Parameterizing module clk_core
+Progress: Adding clk_peri [clock_source 15.0]
+Progress: Parameterizing module clk_peri
+Progress: Adding dipsw [altera_avalon_pio 15.0]
+Progress: Parameterizing module dipsw
+Progress: Adding epcq [altera_epcq_controller 15.0]
+Progress: Parameterizing module epcq
+Progress: Adding gpio0 [altera_avalon_pio 15.0]
+Progress: Parameterizing module gpio0
+Progress: Adding jtag_uart [altera_avalon_jtag_uart 15.0]
+Progress: Parameterizing module jtag_uart
+Progress: Adding led [altera_avalon_pio 15.0]
+Progress: Parameterizing module led
+Progress: Adding led_7seg_0 [altera_avalon_pio 15.0]
+Progress: Parameterizing module led_7seg_0
+Progress: Adding led_7seg_1 [altera_avalon_pio 15.0]
+Progress: Parameterizing module led_7seg_1
+Progress: Adding led_7seg_2 [altera_avalon_pio 15.0]
+Progress: Parameterizing module led_7seg_2
+Progress: Adding mmcdma [mmcdma 1.0]
+Progress: Parameterizing module mmcdma
+Progress: Adding nios2_fast [altera_nios2_gen2 15.0]
+Progress: Parameterizing module nios2_fast
+Progress: Adding nios_custom_instr_floating_point_0 [altera_nios_custom_instr_floating_point 15.0]
+Progress: Parameterizing module nios_custom_instr_floating_point_0
+Progress: Adding pcm [pcm_component 1.0]
+Progress: Parameterizing module pcm
+Progress: Adding peripherals_bridge [altera_avalon_mm_clock_crossing_bridge 15.0]
+Progress: Parameterizing module peripherals_bridge
+Progress: Adding pixelsimd [pixelsimd 1.0]
+Progress: Parameterizing module pixelsimd
+Progress: Adding ps2_kb [altera_up_avalon_ps2 15.0]
+Progress: Parameterizing module ps2_kb
+Progress: Adding psw [altera_avalon_pio 15.0]
+Progress: Parameterizing module psw
+Progress: Adding sdram [altera_avalon_new_sdram_controller 15.0]
+Progress: Parameterizing module sdram
+Progress: Adding sysid [altera_avalon_sysid_qsys 15.0]
+Progress: Parameterizing module sysid
+Progress: Adding systimer [altera_avalon_timer 15.0]
+Progress: Parameterizing module systimer
+Progress: Adding usb [usbhost_component 1.0]
+Progress: Parameterizing module usb
+Progress: Adding vga [vga_component 1.1]
+Progress: Parameterizing module vga
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: cineraria_core.dipsw: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: cineraria_core.gpio0: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: cineraria_core.psw: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: cineraria_core.sysid: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: cineraria_core.sysid: Time stamp will be automatically updated when this component is generated.
+Info: ip-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate C:\PROJECT\cq_viola\cineraria_de0cv\cineraria_core.qsys --synthesis=VERILOG --output-directory=C:\PROJECT\cq_viola\cineraria_de0cv\cineraria_core\synthesis --family="Cyclone V" --part=5CEBA4F23C7
+Progress: Loading cineraria_de0cv/cineraria_core.qsys
+Progress: Reading input file
+Progress: Adding bootmem [altera_avalon_onchip_memory2 15.0]
+Progress: Parameterizing module bootmem
+Progress: Adding clk_core [clock_source 15.0]
+Progress: Parameterizing module clk_core
+Progress: Adding clk_peri [clock_source 15.0]
+Progress: Parameterizing module clk_peri
+Progress: Adding dipsw [altera_avalon_pio 15.0]
+Progress: Parameterizing module dipsw
+Progress: Adding epcq [altera_epcq_controller 15.0]
+Progress: Parameterizing module epcq
+Progress: Adding gpio0 [altera_avalon_pio 15.0]
+Progress: Parameterizing module gpio0
+Progress: Adding jtag_uart [altera_avalon_jtag_uart 15.0]
+Progress: Parameterizing module jtag_uart
+Progress: Adding led [altera_avalon_pio 15.0]
+Progress: Parameterizing module led
+Progress: Adding led_7seg_0 [altera_avalon_pio 15.0]
+Progress: Parameterizing module led_7seg_0
+Progress: Adding led_7seg_1 [altera_avalon_pio 15.0]
+Progress: Parameterizing module led_7seg_1
+Progress: Adding led_7seg_2 [altera_avalon_pio 15.0]
+Progress: Parameterizing module led_7seg_2
+Progress: Adding mmcdma [mmcdma 1.0]
+Progress: Parameterizing module mmcdma
+Progress: Adding nios2_fast [altera_nios2_gen2 15.0]
+Progress: Parameterizing module nios2_fast
+Progress: Adding nios_custom_instr_floating_point_0 [altera_nios_custom_instr_floating_point 15.0]
+Progress: Parameterizing module nios_custom_instr_floating_point_0
+Progress: Adding pcm [pcm_component 1.0]
+Progress: Parameterizing module pcm
+Progress: Adding peripherals_bridge [altera_avalon_mm_clock_crossing_bridge 15.0]
+Progress: Parameterizing module peripherals_bridge
+Progress: Adding pixelsimd [pixelsimd 1.0]
+Progress: Parameterizing module pixelsimd
+Progress: Adding ps2_kb [altera_up_avalon_ps2 15.0]
+Progress: Parameterizing module ps2_kb
+Progress: Adding psw [altera_avalon_pio 15.0]
+Progress: Parameterizing module psw
+Progress: Adding sdram [altera_avalon_new_sdram_controller 15.0]
+Progress: Parameterizing module sdram
+Progress: Adding sysid [altera_avalon_sysid_qsys 15.0]
+Progress: Parameterizing module sysid
+Progress: Adding systimer [altera_avalon_timer 15.0]
+Progress: Parameterizing module systimer
+Progress: Adding usb [usbhost_component 1.0]
+Progress: Parameterizing module usb
+Progress: Adding vga [vga_component 1.1]
+Progress: Parameterizing module vga
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: cineraria_core.dipsw: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: cineraria_core.gpio0: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: cineraria_core.psw: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: cineraria_core.sysid: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: cineraria_core.sysid: Time stamp will be automatically updated when this component is generated.
+Info: cineraria_core: Generating cineraria_core "cineraria_core" for QUARTUS_SYNTH
+Warning: cineraria_core: "No matching role found for nios2_fast_custom_instruction_master_translator:ci_slave:ci_slave_result (result)"
+Warning: cineraria_core: "No matching role found for nios2_fast_custom_instruction_master_multi_xconnect:ci_slave:ci_slave_ipending (ipending)"
+Warning: cineraria_core: "No matching role found for nios2_fast_custom_instruction_master_multi_xconnect:ci_slave:ci_slave_estatus (estatus)"
+Info: bootmem: Starting RTL generation for module 'cineraria_core_bootmem'
+Info: bootmem:   Generation command is [exec C:/develop/altera/15.0/quartus/bin64/perl/bin/perl.exe -I C:/develop/altera/15.0/quartus/bin64/perl/lib -I C:/develop/altera/15.0/quartus/sopc_builder/bin/europa -I C:/develop/altera/15.0/quartus/sopc_builder/bin/perl_lib -I C:/develop/altera/15.0/quartus/sopc_builder/bin -I C:/develop/altera/15.0/quartus/../ip/altera/sopc_builder_ip/common -I C:/develop/altera/15.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/develop/altera/15.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=cineraria_core_bootmem --dir=C:/Users/Regulus/AppData/Local/Temp/alt6688_1800343075294671274.dir/0003_bootmem_gen/ --quartus_dir=C:/develop/altera/15.0/quartus --verilog --config=C:/Users/Regulus/AppData/Local/Temp/alt6688_1800343075294671274.dir/0003_bootmem_gen//cineraria_core_bootmem_component_configuration.pl  --do_build_sim=0  ]
+Info: bootmem: Done RTL generation for module 'cineraria_core_bootmem'
+Info: bootmem: "cineraria_core" instantiated altera_avalon_onchip_memory2 "bootmem"
+Info: dipsw: Starting RTL generation for module 'cineraria_core_dipsw'
+Info: dipsw:   Generation command is [exec C:/develop/altera/15.0/quartus/bin64/perl/bin/perl.exe -I C:/develop/altera/15.0/quartus/bin64/perl/lib -I C:/develop/altera/15.0/quartus/sopc_builder/bin/europa -I C:/develop/altera/15.0/quartus/sopc_builder/bin/perl_lib -I C:/develop/altera/15.0/quartus/sopc_builder/bin -I C:/develop/altera/15.0/quartus/../ip/altera/sopc_builder_ip/common -I C:/develop/altera/15.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/develop/altera/15.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=cineraria_core_dipsw --dir=C:/Users/Regulus/AppData/Local/Temp/alt6688_1800343075294671274.dir/0004_dipsw_gen/ --quartus_dir=C:/develop/altera/15.0/quartus --verilog --config=C:/Users/Regulus/AppData/Local/Temp/alt6688_1800343075294671274.dir/0004_dipsw_gen//cineraria_core_dipsw_component_configuration.pl  --do_build_sim=0  ]
+Info: dipsw: Done RTL generation for module 'cineraria_core_dipsw'
+Info: dipsw: "cineraria_core" instantiated altera_avalon_pio "dipsw"
+Info: altera_asmi_parallel: "Generating: altera_asmi_parallel"
+Info: altera_epcq_controller_core: "Generating: altera_epcq_controller_core"
+Info: epcq: "cineraria_core" instantiated altera_epcq_controller "epcq"
+Info: gpio0: Starting RTL generation for module 'cineraria_core_gpio0'
+Info: gpio0:   Generation command is [exec C:/develop/altera/15.0/quartus/bin64/perl/bin/perl.exe -I C:/develop/altera/15.0/quartus/bin64/perl/lib -I C:/develop/altera/15.0/quartus/sopc_builder/bin/europa -I C:/develop/altera/15.0/quartus/sopc_builder/bin/perl_lib -I C:/develop/altera/15.0/quartus/sopc_builder/bin -I C:/develop/altera/15.0/quartus/../ip/altera/sopc_builder_ip/common -I C:/develop/altera/15.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/develop/altera/15.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=cineraria_core_gpio0 --dir=C:/Users/Regulus/AppData/Local/Temp/alt6688_1800343075294671274.dir/0006_gpio0_gen/ --quartus_dir=C:/develop/altera/15.0/quartus --verilog --config=C:/Users/Regulus/AppData/Local/Temp/alt6688_1800343075294671274.dir/0006_gpio0_gen//cineraria_core_gpio0_component_configuration.pl  --do_build_sim=0  ]
+Info: gpio0: Done RTL generation for module 'cineraria_core_gpio0'
+Info: gpio0: "cineraria_core" instantiated altera_avalon_pio "gpio0"
+Info: jtag_uart: Starting RTL generation for module 'cineraria_core_jtag_uart'
+Info: jtag_uart:   Generation command is [exec C:/develop/altera/15.0/quartus/bin64/perl/bin/perl.exe -I C:/develop/altera/15.0/quartus/bin64/perl/lib -I C:/develop/altera/15.0/quartus/sopc_builder/bin/europa -I C:/develop/altera/15.0/quartus/sopc_builder/bin/perl_lib -I C:/develop/altera/15.0/quartus/sopc_builder/bin -I C:/develop/altera/15.0/quartus/../ip/altera/sopc_builder_ip/common -I C:/develop/altera/15.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- C:/develop/altera/15.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=cineraria_core_jtag_uart --dir=C:/Users/Regulus/AppData/Local/Temp/alt6688_1800343075294671274.dir/0007_jtag_uart_gen/ --quartus_dir=C:/develop/altera/15.0/quartus --verilog --config=C:/Users/Regulus/AppData/Local/Temp/alt6688_1800343075294671274.dir/0007_jtag_uart_gen//cineraria_core_jtag_uart_component_configuration.pl  --do_build_sim=0  ]
+Info: jtag_uart: Done RTL generation for module 'cineraria_core_jtag_uart'
+Info: jtag_uart: "cineraria_core" instantiated altera_avalon_jtag_uart "jtag_uart"
+Info: led: Starting RTL generation for module 'cineraria_core_led'
+Info: led:   Generation command is [exec C:/develop/altera/15.0/quartus/bin64/perl/bin/perl.exe -I C:/develop/altera/15.0/quartus/bin64/perl/lib -I C:/develop/altera/15.0/quartus/sopc_builder/bin/europa -I C:/develop/altera/15.0/quartus/sopc_builder/bin/perl_lib -I C:/develop/altera/15.0/quartus/sopc_builder/bin -I C:/develop/altera/15.0/quartus/../ip/altera/sopc_builder_ip/common -I C:/develop/altera/15.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/develop/altera/15.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=cineraria_core_led --dir=C:/Users/Regulus/AppData/Local/Temp/alt6688_1800343075294671274.dir/0008_led_gen/ --quartus_dir=C:/develop/altera/15.0/quartus --verilog --config=C:/Users/Regulus/AppData/Local/Temp/alt6688_1800343075294671274.dir/0008_led_gen//cineraria_core_led_component_configuration.pl  --do_build_sim=0  ]
+Info: led: Done RTL generation for module 'cineraria_core_led'
+Info: led: "cineraria_core" instantiated altera_avalon_pio "led"
+Info: led_7seg_0: Starting RTL generation for module 'cineraria_core_led_7seg_0'
+Info: led_7seg_0:   Generation command is [exec C:/develop/altera/15.0/quartus/bin64/perl/bin/perl.exe -I C:/develop/altera/15.0/quartus/bin64/perl/lib -I C:/develop/altera/15.0/quartus/sopc_builder/bin/europa -I C:/develop/altera/15.0/quartus/sopc_builder/bin/perl_lib -I C:/develop/altera/15.0/quartus/sopc_builder/bin -I C:/develop/altera/15.0/quartus/../ip/altera/sopc_builder_ip/common -I C:/develop/altera/15.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/develop/altera/15.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=cineraria_core_led_7seg_0 --dir=C:/Users/Regulus/AppData/Local/Temp/alt6688_1800343075294671274.dir/0009_led_7seg_0_gen/ --quartus_dir=C:/develop/altera/15.0/quartus --verilog --config=C:/Users/Regulus/AppData/Local/Temp/alt6688_1800343075294671274.dir/0009_led_7seg_0_gen//cineraria_core_led_7seg_0_component_configuration.pl  --do_build_sim=0  ]
+Info: led_7seg_0: Done RTL generation for module 'cineraria_core_led_7seg_0'
+Info: led_7seg_0: "cineraria_core" instantiated altera_avalon_pio "led_7seg_0"
+Info: mmcdma: "cineraria_core" instantiated mmcdma "mmcdma"
+Info: nios2_fast: "cineraria_core" instantiated altera_nios2_gen2 "nios2_fast"
+Info: nios_custom_instr_floating_point_0: "cineraria_core" instantiated altera_nios_custom_instr_floating_point "nios_custom_instr_floating_point_0"
+Info: pcm: "cineraria_core" instantiated pcm_component "pcm"
+Info: peripherals_bridge: "cineraria_core" instantiated altera_avalon_mm_clock_crossing_bridge "peripherals_bridge"
+Info: pixelsimd: "cineraria_core" instantiated pixelsimd "pixelsimd"
+Info: ps2_kb: Starting Generation of PS2 Controller
+Info: ps2_kb: "cineraria_core" instantiated altera_up_avalon_ps2 "ps2_kb"
+Info: psw: Starting RTL generation for module 'cineraria_core_psw'
+Info: psw:   Generation command is [exec C:/develop/altera/15.0/quartus/bin64/perl/bin/perl.exe -I C:/develop/altera/15.0/quartus/bin64/perl/lib -I C:/develop/altera/15.0/quartus/sopc_builder/bin/europa -I C:/develop/altera/15.0/quartus/sopc_builder/bin/perl_lib -I C:/develop/altera/15.0/quartus/sopc_builder/bin -I C:/develop/altera/15.0/quartus/../ip/altera/sopc_builder_ip/common -I C:/develop/altera/15.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/develop/altera/15.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=cineraria_core_psw --dir=C:/Users/Regulus/AppData/Local/Temp/alt6688_1800343075294671274.dir/0013_psw_gen/ --quartus_dir=C:/develop/altera/15.0/quartus --verilog --config=C:/Users/Regulus/AppData/Local/Temp/alt6688_1800343075294671274.dir/0013_psw_gen//cineraria_core_psw_component_configuration.pl  --do_build_sim=0  ]
+Info: psw: Done RTL generation for module 'cineraria_core_psw'
+Info: psw: "cineraria_core" instantiated altera_avalon_pio "psw"
+Info: sdram: Starting RTL generation for module 'cineraria_core_sdram'
+Info: sdram:   Generation command is [exec C:/develop/altera/15.0/quartus/bin64/perl/bin/perl.exe -I C:/develop/altera/15.0/quartus/bin64/perl/lib -I C:/develop/altera/15.0/quartus/sopc_builder/bin/europa -I C:/develop/altera/15.0/quartus/sopc_builder/bin/perl_lib -I C:/develop/altera/15.0/quartus/sopc_builder/bin -I C:/develop/altera/15.0/quartus/../ip/altera/sopc_builder_ip/common -I C:/develop/altera/15.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller -- C:/develop/altera/15.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller/generate_rtl.pl --name=cineraria_core_sdram --dir=C:/Users/Regulus/AppData/Local/Temp/alt6688_1800343075294671274.dir/0014_sdram_gen/ --quartus_dir=C:/develop/altera/15.0/quartus --verilog --config=C:/Users/Regulus/AppData/Local/Temp/alt6688_1800343075294671274.dir/0014_sdram_gen//cineraria_core_sdram_component_configuration.pl  --do_build_sim=0  ]
+Info: sdram: Done RTL generation for module 'cineraria_core_sdram'
+Info: sdram: "cineraria_core" instantiated altera_avalon_new_sdram_controller "sdram"
+Info: sysid: "cineraria_core" instantiated altera_avalon_sysid_qsys "sysid"
+Info: systimer: Starting RTL generation for module 'cineraria_core_systimer'
+Info: systimer:   Generation command is [exec C:/DEVELOP/altera/15.0/quartus/bin64//perl/bin/perl.exe -I C:/DEVELOP/altera/15.0/quartus/bin64//perl/lib -I C:/develop/altera/15.0/quartus/sopc_builder/bin/europa -I C:/develop/altera/15.0/quartus/sopc_builder/bin/perl_lib -I C:/develop/altera/15.0/quartus/sopc_builder/bin -I C:/develop/altera/15.0/quartus/../ip/altera/sopc_builder_ip/common -I C:/develop/altera/15.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer -- C:/develop/altera/15.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer/generate_rtl.pl --name=cineraria_core_systimer --dir=C:/Users/Regulus/AppData/Local/Temp/alt6688_1800343075294671274.dir/0016_systimer_gen/ --quartus_dir=C:/develop/altera/15.0/quartus --verilog --config=C:/Users/Regulus/AppData/Local/Temp/alt6688_1800343075294671274.dir/0016_systimer_gen//cineraria_core_systimer_component_configuration.pl  --do_build_sim=0  ]
+Info: systimer: Done RTL generation for module 'cineraria_core_systimer'
+Info: systimer: "cineraria_core" instantiated altera_avalon_timer "systimer"
+Info: usb: "cineraria_core" instantiated usbhost_component "usb"
+Info: vga: "cineraria_core" instantiated vga_component "vga"
+Info: nios2_fast_custom_instruction_master_translator: "cineraria_core" instantiated altera_customins_master_translator "nios2_fast_custom_instruction_master_translator"
+Info: nios2_fast_custom_instruction_master_multi_xconnect: "cineraria_core" instantiated altera_customins_xconnect "nios2_fast_custom_instruction_master_multi_xconnect"
+Info: nios2_fast_custom_instruction_master_multi_slave_translator0: "cineraria_core" instantiated altera_customins_slave_translator "nios2_fast_custom_instruction_master_multi_slave_translator0"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_003: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "cineraria_core" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_003: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_004: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_005: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_006: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_007: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_008: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_009: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_010: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_011: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_012: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_013: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_014: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_015: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_016: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_1: "cineraria_core" instantiated altera_mm_interconnect "mm_interconnect_1"
+Info: irq_mapper: "cineraria_core" instantiated altera_irq_mapper "irq_mapper"
+Info: irq_synchronizer: "cineraria_core" instantiated altera_irq_clock_crosser "irq_synchronizer"
+Info: rst_controller: "cineraria_core" instantiated altera_reset_controller "rst_controller"
+Info: altera_asmi_parallel: "epcq" instantiated altera_epcq_controller "altera_asmi_parallel"
+Info: altera_epcq_controller_core: "epcq" instantiated altera_epcq_controller "altera_epcq_controller_core"
+Info: cpu: Starting RTL generation for module 'cineraria_core_nios2_fast_cpu'
+Info: cpu:   Generation command is [exec C:/develop/altera/15.0/quartus/bin64/eperlcmd.exe -I C:/develop/altera/15.0/quartus/bin64/perl/lib -I C:/develop/altera/15.0/quartus/sopc_builder/bin/europa -I C:/develop/altera/15.0/quartus/sopc_builder/bin/perl_lib -I C:/develop/altera/15.0/quartus/sopc_builder/bin -I C:/develop/altera/15.0/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I C:/develop/altera/15.0/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I C:/develop/altera/15.0/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I C:/develop/altera/15.0/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- C:/develop/altera/15.0/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.epl --name=cineraria_core_nios2_fast_cpu --dir=C:/Users/Regulus/AppData/Local/Temp/alt6688_1800343075294671274.dir/0023_cpu_gen/ --quartus_bindir=C:/develop/altera/15.0/quartus/bin64 --verilog --config=C:/Users/Regulus/AppData/Local/Temp/alt6688_1800343075294671274.dir/0023_cpu_gen//cineraria_core_nios2_fast_cpu_processor_configuration.pl  --do_build_sim=0  ]
+Info: cpu: # 2015.09.10 20:58:20 (*) Starting Nios II generation
+Info: cpu: # 2015.09.10 20:58:20 (*)   Checking for plaintext license.
+Info: cpu: # 2015.09.10 20:58:22 (*)   Plaintext license not found.
+Info: cpu: # 2015.09.10 20:58:22 (*)   Checking for encrypted license (non-evaluation).
+Info: cpu: # 2015.09.10 20:58:23 (*)   Encrypted license found.  SOF will not be time-limited.
+Info: cpu: # 2015.09.10 20:58:23 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2015.09.10 20:58:23 (*)   Creating all objects for CPU
+Info: cpu: # 2015.09.10 20:58:23 (*)     Testbench
+Info: cpu: # 2015.09.10 20:58:24 (*)     Instruction decoding
+Info: cpu: # 2015.09.10 20:58:24 (*)       Instruction fields
+Info: cpu: # 2015.09.10 20:58:24 (*)       Instruction decodes
+Info: cpu: # 2015.09.10 20:58:24 (*)       Signals for RTL simulation waveforms
+Info: cpu: # 2015.09.10 20:58:25 (*)       Instruction controls
+Info: cpu: # 2015.09.10 20:58:25 (*)     Pipeline frontend
+Info: cpu: # 2015.09.10 20:58:25 (*)     Pipeline backend
+Info: cpu: # 2015.09.10 20:58:28 (*)   Generating RTL from CPU objects
+Info: cpu: # 2015.09.10 20:58:31 (*)   Creating encrypted RTL
+Info: cpu: # 2015.09.10 20:58:32 (*) Done Nios II generation
+Info: cpu: Done RTL generation for module 'cineraria_core_nios2_fast_cpu'
+Info: cpu: "nios2_fast" instantiated altera_nios2_gen2_unit "cpu"
+Info: nios2_fast_data_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "nios2_fast_data_master_translator"
+Info: nios2_fast_debug_mem_slave_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "nios2_fast_debug_mem_slave_translator"
+Info: nios2_fast_data_master_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "nios2_fast_data_master_agent"
+Info: nios2_fast_debug_mem_slave_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "nios2_fast_debug_mem_slave_agent"
+Info: nios2_fast_debug_mem_slave_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "nios2_fast_debug_mem_slave_agent_rsp_fifo"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_001: "mm_interconnect_0" instantiated altera_merlin_router "router_001"
+Info: router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
+Info: router_003: "mm_interconnect_0" instantiated altera_merlin_router "router_003"
+Info: router_004: "mm_interconnect_0" instantiated altera_merlin_router "router_004"
+Info: router_005: "mm_interconnect_0" instantiated altera_merlin_router "router_005"
+Info: nios2_fast_data_master_limiter: "mm_interconnect_0" instantiated altera_merlin_traffic_limiter "nios2_fast_data_master_limiter"
+Info: Reusing file C:/PROJECT/cq_viola/cineraria_de0cv/cineraria_core/synthesis/submodules/altera_avalon_sc_fifo.v
+Info: nios2_fast_debug_mem_slave_burst_adapter: "mm_interconnect_0" instantiated altera_merlin_burst_adapter "nios2_fast_debug_mem_slave_burst_adapter"
+Info: Reusing file C:/PROJECT/cq_viola/cineraria_de0cv/cineraria_core/synthesis/submodules/altera_avalon_st_pipeline_base.v
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux_001"
+Info: cmd_demux_002: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux_002"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: cmd_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux_001"
+Info: Reusing file C:/PROJECT/cq_viola/cineraria_de0cv/cineraria_core/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: cmd_mux_002: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux_002"
+Info: Reusing file C:/PROJECT/cq_viola/cineraria_de0cv/cineraria_core/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_demux_002: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux_002"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file C:/PROJECT/cq_viola/cineraria_de0cv/cineraria_core/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux_001"
+Info: Reusing file C:/PROJECT/cq_viola/cineraria_de0cv/cineraria_core/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_mux_002: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux_002"
+Info: Reusing file C:/PROJECT/cq_viola/cineraria_de0cv/cineraria_core/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: sdram_s1_rsp_width_adapter: "mm_interconnect_0" instantiated altera_merlin_width_adapter "sdram_s1_rsp_width_adapter"
+Info: Reusing file C:/PROJECT/cq_viola/cineraria_de0cv/cineraria_core/synthesis/submodules/altera_merlin_address_alignment.sv
+Info: Reusing file C:/PROJECT/cq_viola/cineraria_de0cv/cineraria_core/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: avalon_st_adapter_002: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter_002"
+Info: router: "mm_interconnect_1" instantiated altera_merlin_router "router"
+Info: router_001: "mm_interconnect_1" instantiated altera_merlin_router "router_001"
+Info: router_008: "mm_interconnect_1" instantiated altera_merlin_router "router_008"
+Info: cmd_demux: "mm_interconnect_1" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_mux: "mm_interconnect_1" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: Reusing file C:/PROJECT/cq_viola/cineraria_de0cv/cineraria_core/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_demux: "mm_interconnect_1" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_mux: "mm_interconnect_1" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file C:/PROJECT/cq_viola/cineraria_de0cv/cineraria_core/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: avalon_st_adapter_007: "mm_interconnect_1" instantiated altera_avalon_st_adapter "avalon_st_adapter_007"
+Info: altera_asmi_parallel: generating top-level entity cineraria_core_epcq_altera_asmi_parallel_altera_asmi_parallel
+Info: altera_asmi_parallel: "altera_asmi_parallel" instantiated altera_asmi_parallel "altera_asmi_parallel"
+Info: altera_epcq_controller_core: "altera_epcq_controller_core" instantiated altera_epcq_controller_core "altera_epcq_controller_core"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: error_adapter_0: "avalon_st_adapter_002" instantiated error_adapter "error_adapter_0"
+Info: error_adapter_0: "avalon_st_adapter_007" instantiated error_adapter "error_adapter_0"
+Info: cineraria_core: Done "cineraria_core" with 72 modules, 126 files
+Info: ip-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
