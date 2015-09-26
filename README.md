@@ -24,7 +24,7 @@ DE0-CVボードとDE0/DE0-nano拡張ボードでWAVファイルを再生する�
 
 5. NiosII Command Shellを立ち上げます。
 
-6. do_wavplay.shに実行パーミッションが与えられていない場合は `$ chmod a+x do_wavplay/sh` としてパーミッションを追加しておきます。
+6. do_wavplay.shに実行パーミッションが与えられていない場合は `$ chmod a+x do_wavplay.sh` としてパーミッションを追加しておきます。
 
 7. DE0-CVの電源を入れます。DE0-CVボードのSW10はRUN側にセットします。
 
@@ -56,5 +56,5 @@ DE0-CVボードとDE0/DE0-nano拡張ボードでWAVファイルを再生する�
 ライセンス
 =========
 
-特に注記のないファイルはMIT Licenseで扱われる。
+記載のあるものを除き、MIT Licenseを適用するものとします。
 [MIT License](http://opensource.org/licenses/mit-license.php)
